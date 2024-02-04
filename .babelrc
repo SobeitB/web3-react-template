@@ -1,5 +1,5 @@
 {
-  "presets": ["patronum/babel-preset"],
+  "presets": ["patronum/babel-preset", "@babel/preset-env", "@babel/preset-react"],
   "plugins": [
     ["effector/babel-plugin", {
       "factories": []
