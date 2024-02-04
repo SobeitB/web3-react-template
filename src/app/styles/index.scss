@@ -1,0 +1,29 @@
+@import "reset";
+@import "global";
+@import "themes/normal";
+@import "themes/dark";
+
+.app {
+  min-height: 100vh;
+  font: var(--font-main-m);
+  line-height: var(--font-line-main);
+  color: var(--main-color);
+  background: var(--theme-bg);
+}
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.page__loader {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - var(--navbar-height));
+}
